@@ -1,13 +1,13 @@
 # Setup
 title:        El Maven
 tagline:      An opensource LC-MS data processing engine 
-baseurl:      ""
+baseurl:      "https://sabsgeo.github.io"
 paginate:     1
 
 # About/contact
 author:
   name:       Sabu George
-  url:        https://sabsgeo.github.io
+  url:        https://elucidata.io
 
 # Gems
 gems:
