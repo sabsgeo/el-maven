@@ -3,79 +3,13 @@ layout: default
 title: {{ site.name }}
 ---
 <div id="home">
-    <h1>History of Maven</h1>
-    <h1>Installation on windows</h1>
-    <h2> Installing MSYS2</h2>
-    <p>Download the MSYS2 installer.</p>
-    <p>
-        Click and download <a href="http://downloads.sourceforge.net/project/msys2/Base/i686/msys2-i686-20160205.exe?r=http%3A%2F%2F127.0.0.1%3A4000%2F&ts=1475499384&use_mirror=nchc">32 bit</a> or <a href="https://sourceforge.net/projects/msys2/files/Base/x86_64/msys2-x86_64-20160205.exe/download">64 bit</a> windows installer.
-    </p>
-    <p>
-        Run the installer by double clicking the installer. 
-    </p>
-    <p>
-        Select the folder in which you want to install MSYS2 and then ‘Next’. After the installation completes, tick ‘Run MSYS2 now’ and click ‘Finish’.
-    </p>
-    <p>
-        Update the package database and pacman with:
-    <pre>pacman -Sy</pre>
-    </p>
-    <p>
-        If needed, close MSYS2, run it again from the installation folder by double clicking 'msys2.exe'. 
-        </br>Update the package database and core system packages with:
-    <pre>pacman -Syu</pre>
-    </p>
-    <p>
-        Again, if needed, close MSYS2, run it again from the installation folder. Update the rest with:
-    <pre>pacman -Su</pre>
-    </p>
-    <p>
-        Install the MSYS2 development packages:
-    </p>
-    <p>
-        - base-devel contains basic development tools for any building. Install it using the command:
-    <pre>pacman -Sy base-devel</pre>
-    </p>
-    <p>
-        - msys2-devel package contains tools for building msys2 packages. Install it using the command:
-    <pre>pacman -Sy msys2-devel</pre>
-    </p>
-    <p>
-        - mingw-w64-x86_64 is a toolchain used to build mingw64 packages. Install it using the command:
-    <pre>pacman -Sy mingw-w64-x86_64-toolchain</pre>
-    </p>
-    <p>
-        - mingw-w64-x86_64-qt4 - The Qt Installer Framework used for the Qt SDK installer. Install QT4 using the command:
-    <pre>pacman -Sy mingw-w64-x86_64-qt4</pre>
-    </p>
-    <p>
-        hdf5 is a general purpose library and file format for storing scientific data. Install it using the command:
-    <pre>pacman -Sy mingw64/mingw-w64-x86_64-hdf5</pre>
-    </p>
-    <p>
-        Interface for scientific data access to large binary data. Install it using the command:
-    <pre>pacman -Sy mingw64/mingw-w64-x86_64-netcdf</pre>
-    </p>
-    <p>
-        This completes the installation of MSYS2 and the tool chain required to build Maven on your computer.
-    </p>
-    <p>
-        The next step is to get the Maven from the repository.
-    </p>
-    <p>
-        Install GIT on your system by typing the command in the MSYS2 terminal:
-    <pre>pacman -Sy msys/git</pre>
-    </p>
-    <p>
-        Create a folder on Windows. Navigate to that folder using cd command:
-    </p>
-    <p>
-    <pre>cd &#60;pathtofolder&#62;</pre>
-    </p>
-    <p>For Example:
-    <pre>cd /c/User/Admin/Desktop </pre>
-    </p>
-    <p> To initialise a git repository use:
-    </p>
-    <pre>git init</pre>
+    <h1>Request for Proposal Introduction</h1>
+    <p>El Maven is an open source, vendor neutral, LC-MS data processing engine that is most optimal for isotopomer labeling and untargeted metabolomic profiling experiments. Currently El Maven exists as a desktop application that runs on Windows (detail) and Ubuntu (detail) and it’s simplified UI/UX, enhanced performance and robust behavior makes it ideal for large metabolomics experiments.</p>
+    <h1>History</h1>
+    <p>The birth of “El Maven” can be traced back to another open source project, Maven, an open source LC-MS data processing engine developed by Euguene Melamud. We decided to use “El Maven” as the working title for the current project for few reasons. One, we wanted to acknowledge the original project. We also want to commit ourselves to create “The” version of Maven that is widely used and supported by the community. Finally, El also bears the stamp of Elucidata.</p>
+    <h1>Setting up El Maven</h1>
+    &raquo; <a href="/main/2016/02/12/windows-installation.html">Setting up on Windows.</a></br>
+    &raquo; <a href="/main/2016/02/12/ubuntu-installation.html">Setting up on Ubuntu.</a>
+    <h1>Acknowledgment</h1>
+    <p>El Maven would not have been possible without the unwavering support, constant feedback and financial support from Agios</p>
 </div>
