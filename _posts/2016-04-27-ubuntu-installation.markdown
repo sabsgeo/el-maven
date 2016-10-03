@@ -7,10 +7,7 @@ categories: main
 <h1>Setting up El Maven on Ubuntu</h1>
 <p>El Maven needs a development environment to be setup in Windows before it can be installed, and MSYS does exactly that for us. MSYS is a collection of GNU utilities such as bash, make, gawk and grep to allow building of applications and programs which depend on traditionally UNIX tools to be present. It is intended to supplement MinGW and the deficiencies of the cmd shell. We build a tool chain and install all the required libraries using MSYS2. After that is done, we are ready to build Maven. The following tutorial gives step by step instructions on how to install everything you need on your Windows machine to be able to build Maven.</p>
 <h3>Setting up libraries and tool chains</h3>
-<p>Download the MSYS2 installer.</p>
-<p>Click and download <a href="http://downloads.sourceforge.net/project/msys2/Base/i686/msys2-i686-20160205.exe?r=http%3A%2F%2F127.0.0.1%3A4000%2F&ts=1475499384&use_mirror=nchc">32 bit</a> or <a href="https://sourceforge.net/projects/msys2/files/Base/x86_64/msys2-x86_64-20160205.exe/download">64 bit</a> windows installer.</p>
-<p>Run the installer by double clicking the installer.</p>
-<p>Select the folder in which you want to install MSYS2 and then ‘Next’. After the installation completes, tick ‘Run MSYS2 now’ and click ‘Finish’.</p>
+<p>Download the <a href="http://msys2.github.io/">MSYS2</a> installer and folow their tutorial on how to install.</p>
 <p>Update the package database and pacman with:<pre>pacman -Sy</pre></p>
 <p>If needed, close MSYS2, run it again from the installation folder by double clicking 'msys2.exe'. </br>Update the package database and core system packages with:
 <pre>pacman -Syu</pre></p>
